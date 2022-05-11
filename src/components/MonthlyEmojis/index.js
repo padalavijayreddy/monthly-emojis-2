@@ -344,7 +344,7 @@ class MonthlyEmojis extends Component {
     const {activeEmojiId} = this.state
 
     return (
-      <ul className="emojis-list">
+      <div className="emojis-list">
         {emojisList.map(eachEmojiItem => (
           <EmojiItem
             key={eachEmojiItem.id}
@@ -353,7 +353,7 @@ class MonthlyEmojis extends Component {
             updateActiveEmojiId={this.updateActiveEmojiId}
           />
         ))}
-      </ul>
+      </div>
     )
   }
 
@@ -398,7 +398,7 @@ class MonthlyEmojis extends Component {
 
     return (
       <div className="month-container">
-        <h1 className="month-name">January</h1>
+        <h1 className="month-name">Janary</h1>
         <ul className="week-days-list">
           {daysList.map(eachDay => (
             <DayItem key={eachDay.id} dayDetails={eachDay} />
@@ -420,7 +420,7 @@ class MonthlyEmojis extends Component {
   render() {
     return (
       <div className="app-container">
-        <h1 className="heading">Monthly Emojis</h1>
+        <h1 className="heading">Monthly mojis</h1>
         <div className="dates-list-filter-container">
           {this.renderMonthList()}
           <div className="filters-container">
