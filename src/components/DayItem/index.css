@@ -1,0 +1,13 @@
+.day-item {
+  display: flex;
+  justify-content: center;
+  width: 64px;
+}
+
+.day-text {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}

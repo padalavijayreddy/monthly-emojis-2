@@ -1,0 +1,58 @@
+.date-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.date-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #343243;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 45px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .date-button {
+    font-size: 16px;
+    width: 52px;
+    height: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .date-button {
+    font-size: 18px;
+    width: 66px;
+    height: 37px;
+  }
+}
+
+.date-emoji {
+  width: 18px;
+  height: 18px;
+  padding-left: 3px;
+}
+
+@media screen and (min-width: 992px) {
+  .date-emoji {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .date-emoji {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,37 @@
+.emoji-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.emoji-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  color: #ffffff;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.emoji-container {
+  margin-top: 16px;
+}
+
+.emoji-image {
+  width: 32px;
+  margin-top: 16px;
+}
+
+.highlight-image {
+  width: 46px;
+}

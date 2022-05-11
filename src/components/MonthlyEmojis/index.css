@@ -1,0 +1,186 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #ffbe38;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.dates-list-filter-container {
+  display: flex;
+}
+
+.month-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(114, 104, 117, 0.21),
+    rgba(117, 116, 117, 0)
+  );
+  border-radius: 27px;
+  padding: 20px;
+  box-shadow: inset 0px 0px 12px #282626, inset 4px 5px 14px #515151;
+}
+
+@media screen and (min-width: 992px) {
+  .month-container {
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .month-container {
+    width: 700px;
+    padding: 48px;
+  }
+}
+
+.month-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.week-days-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.dates-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 1220px) {
+  .filters-container {
+    margin-left: 30px;
+  }
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 387px;
+  height: 243px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(114, 103, 117, 0.21),
+    rgba(117, 116, 117, 0.04)
+  );
+  border-radius: 27px;
+  padding: 8px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 992px) {
+  .emojis-list {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .emojis-list {
+    width: 470px;
+  }
+}
+
+.filters-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 387px;
+  height: 243px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(114, 103, 117, 0.21),
+    rgba(117, 116, 117, 0.04)
+  );
+  border-radius: 27px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .filters-list {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .filters-list {
+    width: 470px;
+  }
+}
+
+.select-fields-container {
+  display: flex;
+  margin-top: 22px;
+}
+
+.input {
+  color: #ffffff;
+  background-color: #42404d;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 110px;
+  min-width: 157px;
+  height: 40px;
+  border: 1px solid #4e5d72;
+  border-radius: 6px;
+  outline: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .input {
+    width: 180px;
+  }
+}
+
+.filter-count-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 32px;
+}
